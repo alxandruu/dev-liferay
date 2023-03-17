@@ -1,0 +1,10 @@
+Bundle-Name: people-list-api
+Bundle-SymbolicName: com.liferay.training.people.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.liferay.training.people.exception,\
+	com.liferay.training.people.model,\
+	com.liferay.training.people.service,\
+	com.liferay.training.people.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../people-list-service/service.xml
