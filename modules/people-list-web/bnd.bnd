@@ -1,0 +1,5 @@
+Bundle-Name: people-list-web
+Bundle-SymbolicName: com.liferay.training.people.web
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.training.people.web.constants
+Web-ContextPath: /people-list-web

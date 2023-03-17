@@ -1,0 +1,27 @@
+/*
+    Improves Integration Swiper JS plugin with Fragments, this fix makes contribution more easier.
+*/
+
+.page-editor__root {
+    .swiper-wrapper {
+        overflow-x: scroll;
+    }
+}
+.page-editor__layout-viewport {
+    width: 100%;
+    .page-editor__layout-viewport__resizer {
+        width: 100%;
+    }
+}
+
+body {
+    &.has-edit-mode-menu {
+        .swiper-container {
+            cursor: auto !important;
+
+            .swiper-wrapper {
+                overflow-y: hidden;
+            }
+        }
+    }
+}
