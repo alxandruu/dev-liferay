@@ -1,0 +1,4 @@
+Bundle-Name: users-list
+Bundle-SymbolicName: com.dev.liferay.users.web
+Bundle-Version: 1.0.0
+Export-Package: com.dev.liferay.users.web.constants
